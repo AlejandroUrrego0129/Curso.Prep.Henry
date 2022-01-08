@@ -172,7 +172,6 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   // Tu código:
-  var aleatorio = Match.random(0,1);
   return Match.random()
 }
 
@@ -196,9 +195,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  var str = "hello world"
-  return str + '!';
-
+  return str + '!'
 }
 
 function combinarNombres(nombre, apellido) {
